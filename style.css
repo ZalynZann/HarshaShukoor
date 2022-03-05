@@ -199,9 +199,9 @@ label img{
 }
 .text-block{
     position: absolute;
-    right: 89px;
+    right: 299px;
     top: 331px;
-    left: 88px;
+    left: 296px;
     bottom: -126px;
 }
 img{
@@ -583,7 +583,7 @@ font-size: 16px;
     justify-content: center;
     padding: 4rem;
     width: 40%;
-    height: 144%;
+    height: 120%;
     position: absolute;
     right: 0;
     color: #fff;
@@ -711,100 +711,4 @@ font-size: 16px;
 p .copyright {
     text-align: center;
     padding-left: 298px;
-}
-@media screen and (min-width: 320px) {
-    section#BodyOfContactForm {
-        padding-block-start: 278px;
-    }
-    .main-nav {
-        margin-top: 0px;
-    }
-    
-}
-@media screen and (max-width: 700px){
-    .login-left{
-        display: none;
-    }
-    
-    .login-right{
-        width: 100%;
-        height: 94%;
-    }
-}
-@media screen and (min-width:320px) {
-    .container h6{
-        font-size: 16px;
-    }
-    .container {
-        padding-left: 26px;
-        padding-right: 26px;
-    }
-    .container h1 {
-        font-size: 46px;
-
-    }
-    .hslide .wrapper {
-        max-width: 100%;
-        padding: 1px;
-
-    }
-    .hslide{
-        padding: 0;
-        padding-left: 1%;
-        padding: 0px;
-    }
-    .wrapper .img-area {
-    height: 96px;
-    width: 96px;
-    }
-    header ul li {
-        display: inline-block;
-        line-height: 28px;
-        margin: 0px;
-    }
-    .text-block{
-        flex-direction: column;
-        top: 227px;
-        right: 50px;
-        left: 48px;
-        bottom: 419px;
-    }
-    .projectBackground > .container{
-        flex-direction: column;
-        padding-left: 1px;
-    }
-}
-@media screen and (max-width:800px){
-    .login-right{
-        height: 67%;
-    }
-
-    .projectBackground > .container {
-        padding-left: 55px;
-    }
-    .hwrap{
-        padding-left: 143px;
-    }
-}
-@media screen and (min-width:400px) and (max-width:1200px) {
-    section#BodyOfContactForm{
-        padding-block-start: 347px;
-    }
-    .projectBackground > .container{
-        flex-direction: column;
-        padding-left: 12px;
-    }
-        .wrapper {
-            margin-bottom: 20px;
-        }
-    .projectBackground > h2{
-        padding-left: 104px;
-    }
-    .text-block{
-        flex-direction: column;
-        top: 205px;
-    right: 69px;
-    left: 56px;
-    bottom: 419px;
-    }
 }
